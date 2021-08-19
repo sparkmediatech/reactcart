@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/reactcart/static/css/main.70563a57.chunk.css",
+    "main.js": "/reactcart/static/js/main.69143ee5.chunk.js",
+    "main.js.map": "/reactcart/static/js/main.69143ee5.chunk.js.map",
+    "runtime-main.js": "/reactcart/static/js/runtime-main.dc70925e.js",
+    "runtime-main.js.map": "/reactcart/static/js/runtime-main.dc70925e.js.map",
+    "static/js/2.9c4413b0.chunk.js": "/reactcart/static/js/2.9c4413b0.chunk.js",
+    "static/js/2.9c4413b0.chunk.js.map": "/reactcart/static/js/2.9c4413b0.chunk.js.map",
+    "index.html": "/reactcart/index.html",
+    "static/css/main.70563a57.chunk.css.map": "/reactcart/static/css/main.70563a57.chunk.css.map",
+    "static/js/2.9c4413b0.chunk.js.LICENSE.txt": "/reactcart/static/js/2.9c4413b0.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dc70925e.js",
+    "static/js/2.9c4413b0.chunk.js",
+    "static/css/main.70563a57.chunk.css",
+    "static/js/main.69143ee5.chunk.js"
+  ]
+}
