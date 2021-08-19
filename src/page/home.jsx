@@ -70,7 +70,7 @@ export default function Home() {
                         <h5 className='totalNum'>$2199.99</h5>
                    </div>
 
-                   <button className='btn'>Clear</button>
+                   <div className='btn-clear'><button className='btn'>Clear</button></div>
         </section>
 
         </>
