@@ -1,7 +1,7 @@
 .section1 {
   background-color: #2680c0;
   width: 100%;
-  height: 7vh;
+  height: 12vh;
 }
 .container {
   max-width: 1100px;
@@ -10,6 +10,7 @@
   padding: 0 40px;
   height: 100%;
 }
+
 .header {
   margin-top: 20px;
   display: flex;
@@ -17,7 +18,7 @@
   font-family: "Lato", sans-serif;
 }
 .header h2 {
-  font-size: 30px;
+  font-size: 25px;
   color: white;
 }
 .cart-container {
@@ -25,6 +26,7 @@
   position: relative;
 }
 .shopping-cart {
+  margin-top: 10px;
   color: white;
   font-size: 40px;
 }
@@ -34,10 +36,9 @@
   height: 30px;
   width: 30px;
   border-radius: 50px;
-  position: fixed;
-  top: 10px;
+  position: absolute;
+  top: 0;
   margin-left: 15px;
-  z-index: 99;
   background-color: #85c6f4;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
@@ -51,10 +52,11 @@
   max-width: 1100px;
   margin: 0 auto;
   overflow: auto;
-  padding: 0 10px;
+  padding: 0 40px;
   height: 100%;
 }
 .product-section {
+  padding-bottom: 40px;
   display: flex;
   margin-top: 100px;
   width: 100%;
@@ -68,7 +70,6 @@
   font-size: 50px;
   margin-bottom: 50px;
 }
-
 .product-container {
   padding-bottom: 60px;
   display: flex;
@@ -79,32 +80,34 @@
   width: 100%;
 }
 .img-container img {
-  width: 30%;
+  width: 10%;
+  transition: 0.3s ease;
+}
+.img-container img:hover {
+  transition: 0.3s ease;
+  transform: scale(1.2);
 }
 .product-text-container {
-  margin-top: 20px;
-  width: 100%;
+  margin-top: 30px;
   display: flex;
   flex-direction: column;
 }
 .product-text-container h4 {
-  font-size: 20px;
+  font-size: 15px;
   padding-bottom: 10px;
   font-family: "Lato", sans-serif;
 }
 .btn1 {
   cursor: pointer;
-  width: 50%;
 }
 .btn1:hover {
   color: salmon;
 }
 .product-text-container h5 {
   cursor: pointer;
-  font-size: 20px;
+  font-size: 15px;
   font-family: "Lato", sans-serif;
 }
-
 .item-control {
   margin-top: 20px;
   display: flex;
@@ -113,23 +116,22 @@
   margin-right: 30px;
 }
 .iconUp {
-  font-size: 35px;
+  font-size: 30px;
   padding-bottom: 5px;
 }
 .iconDown {
-  font-size: 35px;
+  font-size: 30px;
   padding-bottom: 5px;
 }
 .item-control p {
   padding-bottom: 5px;
-  font-size: 35px;
+  font-size: 20px;
   font-family: "Lato", sans-serif;
 }
-
 .total-text-container {
   padding-top: 20px;
   display: flex;
-  font-size: 25px;
+  font-size: 18px;
   justify-content: space-between;
   font-family: "Lato", sans-serif;
 }
@@ -149,177 +151,122 @@
   padding-bottom: 10px;
   padding-top: 10px;
   align-self: center;
-  width: 50%;
+  width: 30%;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+.btn:hover {
+  color: white;
+  background-color: salmon;
+}
 .line {
-  color: black;
+  background-color: black;
 }
 
-/* small screen */
-@media (min-width: 576px) {
-  .item-control p {
-    font-size: 30px;
-  }
-}
-
-/* medium screen */
-@media (min-width: 768px) {
-  .container2 {
-    padding: 0 20px;
-    margin-top: 100px;
-  }
-  .img-container img {
-    width: 25%;
-  }
-}
-/* Large screen */
-@media (min-width: 992px) {
+/*large screen*/
+@media (max-width: 992px) {
   .section1 {
     height: 10vh;
   }
   .header {
     margin-top: 30px;
   }
-  .img-container img {
-    width: 25%;
-  }
   .header h2 {
-    font-size: 40px;
-    color: white;
-  }
-
-  .shopping-cart {
-    margin-top: 15px;
-    color: white;
-    font-size: 60px;
-  }
-  .cart-figure {
-    height: 45px;
-    width: 45px;
-    position: absolute;
-    margin-bottom: 30px;
-    bottom: 0;
-    top: 0;
-    margin-left: 15px;
-  }
-  .cart-figure h5 {
-    color: white;
-    font-size: 40px;
-    margin-left: 10px;
-  }
-  .cart-container {
-    display: flex;
-    position: relative;
-  }
-}
-/* Large screen */
-@media (min-width: 1200px) {
-  .section1 {
-    overflow: hidden;
-    height: 10vh;
-  }
-  .container {
-    max-width: 1100px;
-    margin: 0 auto;
-    overflow: auto;
-    padding: 0 40px;
-    height: 100%;
-  }
-  .header {
-    margin-top: 15px;
-  }
-  .header h2 {
-    font-size: 25px;
-  }
-  .shopping-cart {
-    color: white;
     font-size: 30px;
   }
-  .cart-figure {
-    display: flex;
-    align-items: center;
-    height: 30px;
-    width: 30px;
-    border-radius: 50px;
-    position: absolute;
-    top: 0px;
-    margin-left: 15px;
-    z-index: 99;
-    background-color: #85c6f4;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  }
-  .cart-figure h5 {
-    color: white;
-    font-size: 25px;
-    margin-left: 8px;
-  }
-  .img-container img {
-    width: 12%;
-  }
-  .cartBag {
-    font-size: 40px;
-  }
-  .btn {
-    font-size: 20px;
-    margin-top: 15px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    align-self: center;
-    width: 30%;
-  }
-  .total-text-container {
-    font-size: 20px;
-    justify-content: space-between;
-    font-family: "Lato", sans-serif;
-  }
-  .total {
-    margin-left: 35px;
-  }
-  .totalNum {
-    margin-right: 20px;
+  .shopping-cart {
+    font-size: 55px;
   }
   .container2 {
-    max-width: 1100px;
-    margin: 0 auto;
-    overflow: auto;
-    padding: 0 40px;
-    height: 100%;
+    padding: 0 50px;
   }
-  .product-section {
-    display: flex;
-    margin-top: 100px;
-    width: 100%;
-    height: 100%;
-    flex-direction: column;
-    padding-bottom: 50px;
+  .img-container img {
+    width: 20%;
   }
-  .img-container {
-    width: 90%;
+  .product-text-container h4 {
+    font-size: 20px;
+  }
+  .product-text-container h5 {
+    font-size: 20px;
+  }
+  .iconUp {
+    font-size: 35px;
+  }
+  .iconDown {
+    font-size: 35px;
+  }
+  .item-control p {
+    font-size: 25px;
+  }
+  .total-text-container {
+    font-size: 23px;
+  }
+}
+/*mid screen*/
+@media (max-width: 768px) {
+  .btn {
+    width: 40%;
+  }
+}
+/*small screen*/
+@media (max-width: 576px) {
+  .container2 {
+    padding: 0 30px;
+  }
+  .img-container img {
+    width: 30%;
+  }
+}
+/*small screen*/
+@media (max-width: 420px) {
+  .container2 {
+    padding: 0 10px;
+  }
+  .section1 .pageTitle {
+    font-size: 25px;
+  }
+  .shopping-cart {
+    margin-top: 10px;
+    color: white;
+    font-size: 40px;
+  }
+}
+/*small screen*/
+@media (max-width: 320px) {
+  .section1 {
+    height: 8vh;
+  }
+  .section1 .pageTitle {
+    font-size: 20px;
+  }
+  .img-container img {
+    width: 40%;
+  }
+  .btn {
+    margin-top: 40px;
+    width: 60%;
+  }
+  .product-text-container h4 {
+    font-size: 17px;
+  }
+  .product-text-container h5 {
+    font-size: 17px;
+  }
+  .iconUp {
+    font-size: 30px;
+  }
+  .iconDown {
+    font-size: 30px;
   }
   .item-control p {
     font-size: 20px;
   }
-  .product-text-container h4 {
-    font-size: 17px;
-    padding-bottom: 10px;
-    font-family: "Lato", sans-serif;
+  .total-text-container {
+    font-size: 23px;
   }
-  .btn1 {
-    cursor: pointer;
-    width: 40%;
+  .product-text-container {
+    margin-top: 10px;
   }
-  .product-text-container h5 {
-    cursor: pointer;
-    font-size: 15px;
-    font-family: "Lato", sans-serif;
-  }
-  .iconUp {
-    font-size: 30px;
-    padding-bottom: 5px;
-  }
-  .iconDown {
-    font-size: 30px;
-    padding-bottom: 5px;
+  .cartBag {
+    font-size: 40px;
   }
 }

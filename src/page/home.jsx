@@ -11,7 +11,7 @@ export default function Home() {
         <section className='section1' >
             <div className='container'>
                 <header className='header'>
-                <h2>Shopping Cart App</h2>
+                <h2 className='pageTitle'>Shopping Cart App</h2>
 
                 <div className='cart-container'>
                      <div className='cart-figure'>
@@ -37,7 +37,7 @@ export default function Home() {
                             <img src={img} alt={title} />
                             <div className='product-text-container'>
                                 <h4>{title}</h4>
-                                < h4>{price}</h4>
+                                < h4>${price}</h4>
                                 <h5 className='btn1'>Remove</h5>
                             </div>
 
