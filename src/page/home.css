@@ -116,10 +116,12 @@
   margin-right: 30px;
 }
 .iconUp {
+  cursor: pointer;
   font-size: 30px;
   padding-bottom: 5px;
 }
 .iconDown {
+  cursor: pointer;
   font-size: 30px;
   padding-bottom: 5px;
 }
@@ -152,6 +154,7 @@
   padding-top: 10px;
   align-self: center;
   width: 30%;
+  border: none;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .btn:hover {
@@ -165,6 +168,9 @@
   width: 100%;
   text-align: center;
   padding-bottom: 100px;
+}
+.hidedisplayEmpty {
+  display: none;
 }
 
 /*large screen*/
@@ -278,7 +284,7 @@
   .btn {
     font-size: 18px;
     margin-top: 20px;
-    width: 50%;
+    width: 40%;
   }
 }
 /*small screen*/
@@ -335,7 +341,7 @@
   .btn {
     font-size: 18px;
     margin-top: 20px;
-    width: 80%;
+    width: 70%;
   }
 }
 /*small screen*/
@@ -393,7 +399,7 @@
   .btn {
     font-size: 18px;
     margin-top: 20px;
-    width: 80%;
+    width: 70%;
   }
 }
 
@@ -458,6 +464,6 @@
   .btn {
     font-size: 18px;
     margin-top: 20px;
-    width: 80%;
+    width: 70%;
   }
 }

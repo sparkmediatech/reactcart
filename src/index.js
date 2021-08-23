@@ -1,11 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Home from './page/home'
+import Home from './page/home';
+import {AppProvider} from './component/context';
+import App from './app'
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <Home/>
+    <AppProvider>
+        <App/>
+    </AppProvider>
+   
   </React.StrictMode>,
   document.getElementById('root')
 );
