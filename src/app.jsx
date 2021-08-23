@@ -12,7 +12,7 @@ export default function App() {
     const {loading} = useGlobalContext();
     if(loading){
         return(
-            <div className='container'>
+            <div className='container3'>
                <div className='loading'>
                    <img src={Loading} alt="loading" />
                </div>

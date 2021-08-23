@@ -24,3 +24,17 @@
   font-family: "Lato", sans-serif;
   text-align: center;
 }
+@media (max-width: 992px) {
+  .section1 {
+    overflow: hidden;
+    height: 10vh;
+  }
+}
+
+/*small screen*/
+@media (max-width: 576px) {
+  .section1 {
+    overflow: hidden;
+    height: 10vh;
+  }
+}

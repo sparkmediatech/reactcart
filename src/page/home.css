@@ -33,9 +33,11 @@
 .cart-figure {
   display: flex;
   align-items: center;
-  height: 30px;
-  width: 30px;
-  border-radius: 50px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 100%;
   position: absolute;
   top: 0;
   margin-left: 15px;
@@ -44,8 +46,8 @@
 }
 .cart-figure h5 {
   color: white;
-  font-size: 25px;
-  margin-left: 8px;
+  font-size: 20px;
+  margin-left: 0px;
 }
 /* products section  */
 .container2 {
@@ -197,8 +199,12 @@
     margin-left: 7px;
   }
   .cart-figure {
-    height: 25px;
-    width: 25px;
+    justify-content: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 100%;
   }
   .img-container img {
     width: 20%;
@@ -251,11 +257,15 @@
   }
   .cart-figure h5 {
     font-size: 20px;
-    margin-left: 7px;
+    margin-left: 0px;
   }
   .cart-figure {
-    height: 25px;
-    width: 25px;
+    justify-content: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 100%;
   }
   .img-container img {
     width: 20%;
@@ -307,12 +317,15 @@
     font-size: 25px;
   }
   .cart-figure h5 {
-    font-size: 20px;
-    margin-left: 7px;
+    font-size: 15px;
   }
   .cart-figure {
-    height: 25px;
-    width: 25px;
+    justify-content: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 100%;
   }
   .img-container img {
     width: 25%;
@@ -365,8 +378,12 @@
     font-size: 25px;
   }
   .cart-figure h5 {
-    font-size: 20px;
-    margin-left: 7px;
+    justify-content: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 100%;
   }
   .cart-figure {
     height: 25px;
@@ -416,8 +433,12 @@
     font-size: 25px;
   }
   .cart-figure {
-    height: 20px;
-    width: 20px;
+    justify-content: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 100%;
   }
   .cart-figure h5 {
     font-size: 17px;
